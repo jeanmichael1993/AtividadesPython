@@ -9,6 +9,7 @@ def guardar_dados(matriz: int, linha: int, coluna: int, flag1, flag2, flag3) -> 
         return matriz
     except ValueError as error:
         print(f"Valor errado!{error}")
+        print(TypeError, IndexError)
         return guardar_dados(matriz, linha, coluna, flag1, flag2, flag3)
 
 
