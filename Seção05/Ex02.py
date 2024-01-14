@@ -25,7 +25,7 @@ def imprimir_data(data_atual: str):
     :param data_atual: valor string com a data atual
     """
     mes: str = '02'
-    dia,mes,ano = data_atual.split('/')
+    dia, mes, ano = data_atual.split('/')
     mes_texto: str = ''
     match mes:
         case '01':
