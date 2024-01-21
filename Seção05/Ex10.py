@@ -1,4 +1,9 @@
 def num_maior(num_a: int, num_b: int) -> int:
+    """
+    :param num_a:
+    :param num_b:
+    :return:
+    """
     if num_a > num_b:
         return num_a
     else:
