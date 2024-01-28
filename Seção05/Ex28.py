@@ -8,14 +8,14 @@ def chama_calcular(func):
     def calcular(*args):
         """
         :param args: valore de x e n
-        :return: retorna o valor do seno aproximadamente
+        :return: retorna o valor do cosseno aproximadamente
         """
         x, n = func(*args)
         cos_approx = 0
         for i in range(n+1):
-            coef = x**((2*i)+1)
+            coef = x**(2*i)
             num = (-1)**i
-            denom = math.factorial((2 * i)+1)
+            denom = math.factorial(2 * i)
             cos_approx += ((num) / (denom))*coef
         return cos_approx
     return calcular

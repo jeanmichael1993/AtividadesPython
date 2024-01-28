@@ -8,15 +8,14 @@ def chama_calcular(func):
     def calcular(*args):
         """
         :param args: valore de x e n
-        :return: retorna o valor do seno aproximadamente
+        :return: retorna o valor do número neperiano aproximadamente
         """
-        x, n = func(*args)
+        n = func(*args)
         cos_approx = 0
         for i in range(n+1):
-            coef = x**((2*i)+1)
-            num = (-1)**i
-            denom = math.factorial((2 * i)+1)
-            cos_approx += ((num) / (denom))*coef
+            num = 1
+            denom = math.factorial(i)
+            cos_approx += ((num) / (denom))
         return cos_approx
     return calcular
 
@@ -27,8 +26,7 @@ def guardar_valores() -> int and float:
     """
     try:
         n: int = int(input("Digite o valor de N: "))
-        x: float = float(input("Digite o valor para o radianos: "))
-        return math.radians(x), n
+        return n
     except ValueError as error:
         print('Valor errado!')
         return guardar_valores()
