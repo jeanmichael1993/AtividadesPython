@@ -16,7 +16,7 @@ def guarda_valor(n: int, count: int) -> float:
         return maior
     except ValueError as error:
         print("Valor errado!")
-        return guarda_valor(n , count)
+        return guarda_valor(n, count)
 
 
 if __name__ == "__main__":
