@@ -1,0 +1,40 @@
+Belavista; 150,000
+Serrano; 80,000
+Rio Azul; 120,000
+Monte Verde; 200,000
+Sol Nascente; 90,000
+Cidade Alta; 180,000
+Primavera; 100,000
+Vale Encantado; 60,000
+Nova Esperança; 130,000
+Aurora do Sul; 70,000
+Maravilha; 110,000
+Jardim do Lago; 160,000
+Harmonia; 85,000
+Flor do Cerrado; 140,000
+Paraíso das Águas; 75,000
+Brilho do Sol; 170,000
+Planalto Central; 95,000
+Terra Nova; 125,000
+Alvorada; 55,000
+Mirante do Vale; 105,000
+Luz da Lua; 145,000
+Encanto Verde; 65,000
+Oásis do Sertão; 135,000
+Montanha Dourada; 82,000
+Estrela do Norte; 155,000
+Pôr do Sol; 88,000
+Vale dos Ventos; 115,000
+Cidade das Flores; 190,000
+Atlântida; 78,000
+Céu Azul; 150,000
+Planície Verde; 68,000
+Encanto das Águas; 123,000
+Vista Bela; 98,000
+Serenidade; 165,000
+Recanto Feliz; 72,000
+Pedra Branca; 145,000
+Vale do Arco-Íris; 110,000
+Maré Alta; 80,000
+Vale das Colinas; 130,000
+Sinfonia das Árvores; 105,000

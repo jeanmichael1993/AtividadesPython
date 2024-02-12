@@ -25,14 +25,14 @@ def guardar_dados(nome: str, dados: str):
                 mais_populosa = chave
         print(mais_populosa, qtd_polulosa)
         with open(nome, 'w+', encoding='iso8859-2') as arquivo:
-            arquivo.write(f'A cidade mais populosa √©: {mais_populosa} com {qtd_polulosa} habitantes!')
+            arquivo.write(f'A cidade mais populosa È: {mais_populosa} com {qtd_polulosa} habitantes!')
     except TypeError as error:
         print(error)
 
 
 if __name__ == "__main__":
     try:
-        nome: str = input("Digite o nome do arquivo com extens√£o: ")
+        nome: str = input("Digite o nome do arquivo com extens„o: ")
         dados: str = ler_arquivo(nome)
         nomeArquivoFinal: str = input("Digite o nome do arquivo para salvar os dados: ")
         guardar_dados(nomeArquivoFinal, dados)
