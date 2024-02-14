@@ -3,7 +3,7 @@ import datetime
 def abrir_arquivo() -> str:
     try:
         dados: str = ''
-        with open('arqEx14.txt', 'r') as arquivo:
+        with open('arqEx15.txt', 'r') as arquivo:
             dados = arquivo.readlines()
         return dados
     except TypeError as error:
@@ -17,10 +17,17 @@ def escrever_arquivo(dados: str):
             if len(i) > 1:
                 nome, dia, mes, ano = i.split()
                 data_hoje = datetime.datetime.today().year
-                aniversario = datetime.datetime(year=int(ano), month =int(mes), day = int(dia)).year
+                aniversario = datetime.datetime(year=int(ano), month=int(mes), day=int(dia)).year
                 idade = (data_hoje - aniversario)
-                with open('arqEx14Resultado.txt', 'a+') as arquivo:
-                    arquivo.write(nome + " " + str(idade) + '\n' )
+                resultado = ''
+                with open('arqEx15Resultado.txt', 'a+') as arquivo:
+                    if int(idade) < 18:
+                        resultado = 'menor de idade'
+                    elif int(idade) > 18:
+                        resultado = 'maior de idade'
+                    else:
+                        resultado = 'entrando na maior idade'
+                    arquivo.write(nome + " " + resultado + '\n')
     except TypeError as error:
         print(error)
 
