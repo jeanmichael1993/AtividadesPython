@@ -1,0 +1,4 @@
+geladeira: 1500
+fogão: 400
+carro: 30000
+sofá: 999
