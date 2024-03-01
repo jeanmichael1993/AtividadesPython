@@ -1,0 +1,1 @@
+Aluno: jean, nota: (78.0, 90.0, 76.0)Aluno: rest, nota: (29.0, 32.0, 45.0)
