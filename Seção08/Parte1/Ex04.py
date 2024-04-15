@@ -1,12 +1,10 @@
+
 class Quadrado:
 
-    def __init__(self):
-        self.__lado = 0
+    def __init__(self, lado):
+        self.__lado = lado
         self.__area = 0
         self.__perimetro = 0
-
-    def set_lado(self, lado):
-        self.__lado = lado
 
     def calcular_area(self):
         self.__area = self.__lado * self.__lado
@@ -19,8 +17,7 @@ class Quadrado:
 
 
 def main():
-    quadrado = Quadrado()
-    quadrado.set_lado(4)
+    quadrado = Quadrado(4)
     quadrado.calcular_area()
     quadrado.calcular_perimetro()
     quadrado.show()

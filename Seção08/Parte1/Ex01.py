@@ -1,17 +1,17 @@
 
 class Person:
 
-    def __init__(self, name, address, phone):
-        self.__name = name
-        self.__address = address
-        self.__phone = phone
+    def __init__(self):
+        self.__name = 'Jean'
+        self.__address = 'teste2'
+        self.__phone = '232322424'
 
     def show(self) -> str:
         return print(f"Name: {self.__name}, Address: {self.__address}, Phone: {self.__phone}")
 
 
 def main():
-    pessoa = Person('Jean', 'Teste2', '2323242232')
+    pessoa = Person()
     pessoa.show()
 
 
