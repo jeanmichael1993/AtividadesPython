@@ -12,15 +12,15 @@ Print the requested result (sum or average) with one digit after the decimal poi
 """
 
 def create_matrix(lines: int, columns: int) -> list:
-    return [[float(input()) for column in range(columns)] for line in range(lines)]
+    return [[float(input()) for line in range(lines)] for column in range(columns)]
 
 
 def operation_matrix(lines: int, columns: int, operation: str, matrix: list):
     __sum__: float = 0
     __list__: list = []
 
-    for line in range(5,0,-1):
-        for column in range(12 - line, line,-1):
+    for line in range(5):
+        for column in range(line + 1, (columns -1) - line):
             __sum__ += matrix[line][column]
             __list__.append(matrix[line][column])
 
