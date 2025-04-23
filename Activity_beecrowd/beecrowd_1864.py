@@ -15,13 +15,14 @@ Input()
 The entry consists of a single integer number N on a line
 
 Output()
-Print the first N characters of the quote by Soren Kierkegaard defined by the letters that were underlined in the statement
+Print the first N characters of the quote by Soren Kierkegaard defined by the letters that we re underlined in the statement
 of this problem. Pay attention, as no spaces were underlined - you must guess the number and location of the spaces in the
 sentence. The only line of output should consist only of uppercase letters and spaces and be terminated by a newline.
 
 
 
 """
+import time
 
 
 def main():
@@ -29,6 +30,7 @@ def main():
     frase: str = "Life is not a problem to be solved, but a reality to be experienced."
     new_frase: str = frase[:n]
     print(new_frase.upper())
+    time.sleep(50)
 
 
 if __name__ == "__main__":
