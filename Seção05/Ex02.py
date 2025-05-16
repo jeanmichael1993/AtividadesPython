@@ -1,4 +1,4 @@
-def guardar_data_atual() -> str:
++.def guardar_data_atual() -> str:
     """
     Função que guarda a data atual
     :return: Data forma textual
